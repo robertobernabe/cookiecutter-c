@@ -14,10 +14,5 @@
 ** OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 */
 
-#ifndef _{{cookiecutter.project_slug|upper}}_H
-#define _{{cookiecutter.project_slug|upper}}_H
-
+#pragma once
 #include <stdlib.h>
-
-
-#endif

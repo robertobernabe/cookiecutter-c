@@ -4,5 +4,7 @@
     "project_name": "c-playground",
     "repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
     "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '') }}",
-    "project_description": "School project written in C"
+    "project_description": "School project written in C",
+    "vcpkg_github_repo": "microsoft/vcpkg",
+    "vcpkg_tag": "2021.05.12"
 }
