@@ -14,9 +14,10 @@
 ** OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 */
 
-#include "{{cookiecutter.project_name}}.h"
+#ifndef _{{cookiecutter.project_slug|upper}}_H
+#define _{{cookiecutter.project_slug|upper}}_H
 
-int main()
-{
-    return (EXIT_SUCCESS);
-}
+#include <stdlib.h>
+
+
+#endif

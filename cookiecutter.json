@@ -3,5 +3,6 @@
     "email": "your@email.com",
     "repo_name": "bootstrap",
     "project_name": "bootstrap",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-','') }}",
     "project_description": "School project written in C"
 }
