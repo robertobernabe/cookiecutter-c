@@ -2,4 +2,7 @@
 
 {{cookiecutter.project_description}}
 
-## Dev
+## Build
+
+    cmake -B build -S .
+    cmake --build build
