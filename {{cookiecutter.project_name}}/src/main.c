@@ -14,7 +14,7 @@
 ** OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 */
 
-#include "{{cookiecutter.project_name|lower}}.h"
+#include "{{cookiecutter.project_name}}.h"
 
 int main()
 {
