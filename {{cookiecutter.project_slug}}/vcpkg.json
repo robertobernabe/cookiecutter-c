@@ -1,0 +1,8 @@
+{
+    "name": "{{ cookiecutter.project_slug }}",
+    "version-string": "0.0.1",
+    "description": "{{ cookiecutter.project_description }}",
+    "dependencies": [
+      "check"
+    ]
+  }

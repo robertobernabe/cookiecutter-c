@@ -2,9 +2,11 @@
     "full_name": "Your name",
     "email": "your@email.com",
     "project_name": "c-playground",
-    "repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
-    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '') }}",
+    "year": "{% now 'utc', '%Y' %}",
+    "repo_name": "{{ cookiecutter.project_name | slugify }}",
+    "project_slug": "{{ cookiecutter.project_name | slugify(separator='') }}",
     "project_description": "School project written in C",
     "vcpkg_github_repo": "microsoft/vcpkg",
-    "vcpkg_tag": "2021.05.12"
+    "vcpkg_tag": "2021.05.12",
+    "_extensions": ["jinja2_time.TimeExtension", "cookiecutter.extensions.SlugifyExtension"]
 }
